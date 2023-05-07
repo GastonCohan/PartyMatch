@@ -138,7 +138,7 @@ import Modal from "react-native-modal";
       <Modal isVisible={isModalVisible}>
         <View style={{backgroundColor:"white", borderRadius: 5}}>
           <View style={{height:80,justifyContent:"center", alignItems:'center'}}>
-          <Text style={{color:'black'}}>Debes seleccionar algun evento al que asisti</Text>
+          <Text style={{color:'black'}}>Debes seleccionar algun evento al que asistir</Text>
           </View>
           <View style={{width:'100%'}}>
           <Button title="Cerrar" onPress={toggleModal} color="#2E336A"/>
